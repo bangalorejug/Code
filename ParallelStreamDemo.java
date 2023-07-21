@@ -3,6 +3,10 @@ import java.util.Arrays;
 import java.util.Random;
 import java.time.Instant;
 
+/* Simple Demo to show the power of parallel processing. Please use primitive data type and run some mathematical calculation. 
+   In this demo, first calculated the area and then sum all the area.
+ */ 
+
 public class ParallelStreamDemo {
     public static void main(String[] args) {
         double area[] = new double[700000000]; // Adjust the value as per the demo
