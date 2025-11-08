@@ -6,13 +6,13 @@ public class Allocator {
 	private HashMap<Integer, MyAlloc> map = new HashMap<Integer, MyAlloc>();
 	
 	private static class MyAlloc {
-		private Integer id;
+		private int id;
 		
-		private MyAlloc(Integer id) {
+		private MyAlloc(int id) {
 			this.id = id;
 		}
 		
-		private Integer getId() {
+		private int getId() {
 			return id;
 		}
 	}
