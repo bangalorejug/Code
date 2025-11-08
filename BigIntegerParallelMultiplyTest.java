@@ -40,7 +40,7 @@ public class BigIntegerParallelMultiplyTest {
         BigInteger multiplyResult = fibonacci(n, BigInteger::multiply);
         Instant end = Instant.now();
         Duration timeElapsed = Duration.between(start, end);
-        System.out.println("Time taken: "+ timeElapsed.toMillis() +" milliseconds");
+        System.out.println("Time taken: "+ timeElapsed.toMillis() +" milliseconds" );
 
 
         Instant start1 = Instant.now();
